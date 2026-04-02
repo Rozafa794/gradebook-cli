@@ -1,5 +1,59 @@
 {
-    "students": [],
-    "courses": [],
-    "enrollments": []
+    "students": [
+        {
+            "id": 1,
+            "name": "Rozafa Hajrizi"
+        },
+        {
+            "id": 2,
+            "name": "Arta Berisha"
+        },
+        {
+            "id": 3,
+            "name": "Dren Kelmendi"
+        }
+    ],
+    "courses": [
+        {
+            "code": "CS101",
+            "title": "Introduction to Computer Science"
+        },
+        {
+            "code": "MATH201",
+            "title": "Business Mathematics"
+        }
+    ],
+    "enrollments": [
+        {
+            "student_id": 1,
+            "course_code": "CS101",
+            "grades": [
+                95,
+                88
+            ]
+        },
+        {
+            "student_id": 1,
+            "course_code": "MATH201",
+            "grades": [
+                91
+            ]
+        },
+        {
+            "student_id": 2,
+            "course_code": "CS101",
+            "grades": [
+                78,
+                84
+            ]
+        },
+        {
+            "student_id": 3,
+            "course_code": "MATH201",
+            "grades": [
+                89,
+                93
+            ]
+        }
+    ]
 }
